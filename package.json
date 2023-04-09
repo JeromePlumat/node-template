@@ -1,0 +1,16 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "A starting template for NodeJS project containing default tests, package.json and app files",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test1": "eslint --rulesdir ./tests/test1 .",
+    "test2": "eslint --rulesdir ./tests/test2 ."
+  },
+  "author": "Jerome Plumat",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
